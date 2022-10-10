@@ -169,21 +169,7 @@ mark{
 	left: 0;
 	pointer-events: none;
 }
-.decolines--fixed {
-	position: fixed;
-	width: 100vw;
-	max-width: 1110px;
-	height: 100vh;
-	left: 50%;
-	-webkit-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
-	-o-transform: translateX(-50%);
-	transform: translateX(-50%);
-}
-.decoline {
-	position: absolute;
-}
+
 
 /* #Navigation
 ================================================== */
