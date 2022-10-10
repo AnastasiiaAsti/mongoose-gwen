@@ -98,10 +98,10 @@ mark{
   0% {
     height: 0;
     width: 0;
-    background-color: #6dc234;
+    background-color: var(--orange-lite);
   }
   29% {
-    background-color: #6dc234;
+    background-color: var(--orange-lite);
   }
   30% {
     height: 2em;
@@ -122,10 +122,10 @@ mark{
   0% {
     height: 0;
     width: 0;
-    background-color: #6dc234;
+    background-color: var(--orange-lite);
   }
   29% {
-    background-color: #6dc234;
+    background-color: var(--orange-lite);
   }
   30% {
     height: 2em;
@@ -146,10 +146,10 @@ mark{
   0% {
     height: 0;
     width: 0;
-    background-color: #6dc234;
+    background-color: var(--orange-lite);
   }
   29% {
-    background-color: #6dc234;
+    background-color: var(--orange-lite)
   }
   30% {
     height: 2em;
@@ -318,7 +318,7 @@ mark{
           transform: translateX(0%) translateY(-100%);
 }
 .nav:after {
-	background: #fff;
+	background: var(--walls-bg);
 	-webkit-transition-delay: 0s;
           transition-delay: 0s;
 }
@@ -513,6 +513,16 @@ body.nav-active .nav__list-item:nth-child(10) {
 	margin: 0;
 	display: block;
 }
+
+#book-now {
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	padding: 1rem;
+	background-color: var(--orange-lite);
+	cursor: pointer;
+}
+
 
 /* #Scroll to top button
 ================================================== */
