@@ -1,4 +1,12 @@
-
+:root {
+    --orange-lite: rgba(228, 162, 99);
+    --orange-dark: rgba(167, 88, 32);
+    --mint-lite: rgba(192, 217, 173);
+    --mint-med: rgba(129, 143, 118);
+    --mint-dark: rgba(87, 106, 68);
+    --brown: rgba(100, 77, 55);
+    --walls-bg: rgba(171, 174, 150);
+}
 /* #Primary
 ================================================== */
 
@@ -10,6 +18,7 @@ body{
 	line-height: 1.55;
 	color: #646464;
 	overflow-x: hidden;
+	background-color: var(--walls-bg);
 }
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6{
